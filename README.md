@@ -1,0 +1,3 @@
+# react_ts_template
+用于TypeScript编写的React项目模版，包含了dev与build。
+目前只装了React与React-DOM

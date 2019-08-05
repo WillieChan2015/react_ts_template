@@ -1,0 +1,29 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+                "modules": false,
+                // "targets": {
+                //   "browsers": ["> 1%", "last 2 versions", "not ie <= 8"]
+                // },
+                // "useBuiltIns": "usage"
+            }
+        ],
+        "@babel/preset-react",
+    ],
+    "plugins": [
+        "react-hot-loader/babel",
+        "@babel/plugin-transform-runtime",
+        "@babel/proposal-class-properties",
+        "@babel/plugin-proposal-object-rest-spread",
+        "@babel/plugin-syntax-dynamic-import",
+        [
+            "import",
+            {
+                "libraryName": "antd",
+                "style": "css"
+            }
+        ]
+    ]
+}
